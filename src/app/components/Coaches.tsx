@@ -7,14 +7,14 @@ export function Coaches() {
     {
       name: 'Jude',
       image: judeImage,
-      specialties: ['Technical Skills', 'Tactical Awareness', 'Youth Development'],
-      bio: 'With years of experience in elite football coaching, Jude specializes in developing technical excellence and tactical intelligence in players of all ages.',
+      specialties: ['Strength & Conditioning', 'Tactical Awareness', 'Youth Development'],
+      bio: 'Judah is a dedicated coach with a strong background in football, strength and conditioning, and amateur boxing. With experience leading football and boxing sessions at university level, he brings a disciplined and high-energy approach to athlete development. Passionate about helping young people grow, Judah creates an environment where players can build confidence, challenge themselves, and understand what it takes to reach the next level. Alongside coaching, he also tutors GCSE Maths, using strong teaching and problem-solving skills to help players develop sharper decision-making and a smarter understanding of the game.',
     },
     {
       name: 'Lewis',
       image: lewisImage,
-      specialties: ['Strength & Conditioning', 'Mental Performance', 'Elite Development'],
-      bio: 'Lewis brings a holistic approach to coaching, focusing on physical conditioning, mental resilience, and preparing players for professional pathways.',
+      specialties: ['Technical Skills', 'Mental Performance', 'Football IQ'],
+      bio: 'Lewis is a dedicated coach with experience in high-level football, karate, and athletics. His background as both an elite athlete and coach gives him a well-rounded, performance-driven approach to player development. He combines technical knowledge, discipline, high-performance psychology and competitive experience to help athletes improve their skills, confidence, and understanding of the game.',
     },
   ];
 
