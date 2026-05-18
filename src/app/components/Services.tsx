@@ -1,4 +1,5 @@
 import { CheckCircle2, Clock, MapPin, Users } from 'lucide-react';
+
 import { Card } from './ui/card';
 
 export function Services() {
@@ -9,7 +10,7 @@ export function Services() {
       price: 'Custom Pricing',
       features: [
         'Personalized training plans',
-        'Video analysis & feedback',
+        'Analysis & feedback',
         'Technical skill development',
         'Position-specific coaching',
         'Performance tracking',
@@ -19,9 +20,10 @@ export function Services() {
     {
       title: 'Small Group Sessions',
       icon: Users,
-      price: 'From £40/session',
+      price: 'From £16/session',
       features: [
-        'Max 4 players per group',
+        'Max 8 players per group',
+        '2 hour intense session',
         'Competitive training environment',
         'Team tactics & strategy',
         'Game situation drills',
@@ -30,25 +32,25 @@ export function Services() {
       popular: true,
     },
     {
-      title: 'Pro Pathway Program',
+      title: 'May Half Term Pro Pathway 3 Day Program',
       icon: MapPin,
-      price: 'Contact Us',
+      price: '£30/day or £25/day for 3 days',
       features: [
+        '11 - 14 years',
+        '9am-3pm 27th May - 29th May',
         'Trial preparation & scouting',
-        'Professional mentorship',
-        'Showcase opportunities',
-        'Nutrition & lifestyle guidance',
-        'Career development support',
+        'Analysis & feedback',
+        'Technical skill development',
+        'Position-specific coaching',
+        'Performance tracking',
       ],
       popular: false,
     },
   ];
 
   const schedule = [
-    { day: 'Monday - Wednesday', time: '4:00 PM - 8:00 PM', type: 'Group Sessions' },
-    { day: 'Thursday - Friday', time: '4:00 PM - 8:00 PM', type: '1-on-1 Training' },
-    { day: 'Saturday', time: '9:00 AM - 3:00 PM', type: 'All Programs' },
-    { day: 'Sunday', time: '10:00 AM - 2:00 PM', type: 'Elite Pathway' },
+    { day: 'Friday', time: '5:00 PM - 7:00 PM', type: 'Group Sessions' },
+    { day: 'Monday - Thursday', time: '5:00 PM - 7:00 PM', type: '1-on-1 Training' },
   ];
 
   return (

@@ -1,4 +1,5 @@
 import { Award, BookOpen, Dumbbell } from 'lucide-react';
+
 import judeImage from  '../../assets/49bf6d6361de35a75f64952ae8bc2c49fdb4b341.png';
 import lewisImage from '../../assets/3f50f5be5e7467af64bb993a9d288352d0f816fc.png';
 
@@ -8,7 +9,7 @@ export function Coaches() {
       name: 'Jude',
       image: judeImage,
       specialties: ['Strength & Conditioning', 'Tactical Awareness', 'Youth Development'],
-      bio: 'Judah is a dedicated coach with a strong background in football, strength and conditioning, and amateur boxing. With experience leading football and boxing sessions at university level, he brings a disciplined and high-energy approach to athlete development. Passionate about helping young people grow, Judah creates an environment where players can build confidence, challenge themselves, and understand what it takes to reach the next level. Alongside coaching, he also tutors GCSE Maths, using strong teaching and problem-solving skills to help players develop sharper decision-making and a smarter understanding of the game.',
+      bio: 'Judah is a dedicated coach with a strong background in football, strength and conditioning, and amateur boxing. With experience leading football and boxing sessions at university level, he brings a disciplined and high-energy approach to athlete development. Passionate about helping young people grow, Judah creates an environment where players can build confidence, challenge themselves, and understand what it takes to reach the next level.',
     },
     {
       name: 'Lewis',
