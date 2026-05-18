@@ -44,8 +44,11 @@ export function Coaches() {
                 <img
                   src={coach.image}
                   alt={coach.name}
-                  className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
-                  style={{ objectPosition: coach.name === 'Jude' ? 'center 40%' : 'center center' }}
+                  className={`w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 ${
+                    coach.name === 'Jude'
+                      ? 'object-[center_18%] md:object-[center_22%]'
+                      : 'object-center'
+                  }`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/50 to-transparent" />
               </div>

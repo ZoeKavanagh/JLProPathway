@@ -1,4 +1,5 @@
-import { Mail, MapPin, Phone, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Facebook, Instagram, Mail, MapPin, Phone, Twitter } from 'lucide-react';
+
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
@@ -14,9 +15,16 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Mock form submission
-    alert('Thanks for your interest! We\'ll be in touch soon.');
-    setFormData({ name: '', email: '', phone: '', message: '' });
+     // Create mailto link with form data
+     const subject = encodeURIComponent('JL Pro Pathway Enquiry');
+     const body = encodeURIComponent(
+       `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
+     );
+ 
+     window.location.href = `mailto:info@jlpropathway.com?subject=${subject}&body=${body}`;
+ 
+     // Reset form
+     setFormData({ name: '', email: '', phone: '', message: '' });
   };
 
   const handleChange = (
@@ -59,12 +67,14 @@ export function Contact() {
                   <Phone size={24} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg mb-1">Call Us</h4>
+                  <h4 className="font-bold text-lg mb-1">WhatsApp Us</h4>
                   <a
-                    href="tel:+447123456789"
+                    href="https://wa.me/447476811213"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-gray-300 hover:text-green-400 transition-colors"
                   >
-                    +44 7123 456 789
+                    07476 811213
                   </a>
                 </div>
               </div>
