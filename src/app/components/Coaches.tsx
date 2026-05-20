@@ -73,7 +73,7 @@ export function Coaches() {
         </div>
 
         {/* Credentials */}
-        <div className="mt-16 grid md:grid-cols-3 gap-8">
+        {/* <div className="mt-16 grid md:grid-cols-3 gap-8">
           <div className="text-center p-6">
             <Award className="mx-auto mb-4 text-green-400" size={48} />
             <h4 className="text-xl font-bold mb-2">UEFA Licensed</h4>
@@ -89,7 +89,7 @@ export function Coaches() {
             <h4 className="text-xl font-bold mb-2">Holistic Development</h4>
             <p className="text-gray-400">Physical & mental performance</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

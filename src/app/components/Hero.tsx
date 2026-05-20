@@ -1,6 +1,7 @@
 import { ArrowRight, Menu, X } from 'lucide-react';
-import { useState } from 'react';
+
 import { Button } from './ui/button';
+import { useState } from 'react';
 
 export function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -132,7 +133,7 @@ export function Hero() {
               onClick={() => scrollToSection('about')}
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-6"
+              className="border-white text-green hover:bg-white hover:text-black text-lg px-8 py-6"
             >
               Learn More
             </Button>
